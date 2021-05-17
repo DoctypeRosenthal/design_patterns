@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "stylelint-config-recommended",
+    "stylelint-config-styled-components",
+    "stylelint-config-rational-order"
+  ],
+  "ignoreFiles": ["**/*.ts", "**/*.spec.tsx"],
+  "rules": {
+    "selector-type-no-unknown": [true, { "ignore": ["custom-elements"] }],
+    "no-extra-semicolons": null,
+    "unit-no-unknown": null,
+    "font-family-no-missing-generic-family-keyword": null
+  }
+}
